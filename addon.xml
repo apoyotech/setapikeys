@@ -10,8 +10,9 @@
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Escribe tus API keys en varios add-ons (hardcoded)</summary>
-    <platform>all</platform>
+  <summary>Escribe tus API keys en varios add-ons (hardcoded)</summary>
+  <license>GPL-3.0-or-later</license>
+  <platform>all</platform>
  <assets>
    <icon>icon.png</icon>
    <fanart>fanart.jpg</fanart>
