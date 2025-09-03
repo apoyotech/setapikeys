@@ -59,7 +59,7 @@ def set_first_valid(addon_id, setting_ids, value):
     Devuelve (ok, setting_id_usado) .
     """
     try:
-        ad = xbmcaddon.Addon(addon_id)
+        ad = xbmcaddon.Addon(id=addon_id)
     except Exception:
         return False, "No instalado"
 
