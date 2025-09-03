@@ -1,0 +1,2 @@
+[B][COLOR ff317f43]Version 0.0.1[/COLOR][/B]
+- Versión inicial. Instala las claves API en varios add-ons en KODI automáticamente.
