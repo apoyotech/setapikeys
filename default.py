@@ -3,10 +3,10 @@ import xbmcaddon
 import xbmcgui
 
 # ====== TUS CLAVES (hardcoded) ======
-OMDB_KEY     = "3b6c28ce"
-MDBLIST_KEY  = "xma2hxonarl718z4w7adchsef"
-SUBDL_KEY    = "lj9neeNGx37abT59gZYQaF_8iDSwNrT_"
-RPDB_KEY     ="t0-free-rpdb"
+OMDB_KEY     = "introducir tu api key"
+MDBLIST_KEY  = "introducir tu api key"
+SUBDL_KEY    = "introducir tu api key"
+RPDB_KEY     = "introducir tu api key"
 # ====================================
 
 # Mapa de add-ons y posibles IDs de ajuste a probar
@@ -15,7 +15,6 @@ TARGETS = {
     "plugin.video.themoviedb.helper": {
         "MDBlist": {
             "value": MDBLIST_KEY,
-            # Probamos varios nombres habituales
             "ids": ["mdblist_apikey"]
         }
     },
@@ -28,7 +27,7 @@ TARGETS = {
         }
     },
 
-    # Umbrella → MDBList (ID confirmado en tu XML)
+    # Umbrella → MDBList 
     "plugin.video.umbrella": {
         "MDBList": {
             "value": MDBLIST_KEY,
@@ -36,7 +35,7 @@ TARGETS = {
         }
     },
 
-    # a4kSubtitles → SubDL (ID confirmado en tu XML)
+    # a4kSubtitles → SubDL 
     "service.subtitles.a4ksubtitles": {
         "SubDL": {
             "value": SUBDL_KEY,
