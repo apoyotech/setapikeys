@@ -6,7 +6,7 @@
     </group>
 
     <group label="MDBList">
-      <setting id="save_mdblist_tmdbh" type="action" label="TMDb Helper → Guardar MDBList"
+      <setting id="save_mdblist_tmdb.helper" type="action" label="TMDb Helper → Guardar MDBList"
                action="RunScript(plugin.program.setapikeys, action=save&amp;target=tmdbh&amp;provider=mdblist)" option="close"/>
       <setting id="save_mdblist_umbrella" type="action" label="Umbrella → Guardar MDBList"
                action="RunScript(plugin.program.setapikeys, action=save&amp;target=umbrella&amp;provider=mdblist)" option="close"/>
