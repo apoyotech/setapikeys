@@ -1,0 +1,27 @@
+<settings>
+  <category label="Guardar API en add-ons">
+    <group label="OMDb">
+      <setting id="save_omdb_seren" type="action" label="Seren → Guardar OMDb en ajustes de Seren"
+               action="RunScript(plugin.program.setapikeys, action=save&amp;target=seren&amp;provider=omdb)" option="close"/>
+    </group>
+
+    <group label="MDBList">
+      <setting id="save_mdblist_tmdbh" type="action" label="TMDb Helper → Guardar MDBList"
+               action="RunScript(plugin.program.setapikeys, action=save&amp;target=tmdbh&amp;provider=mdblist)" option="close"/>
+      <setting id="save_mdblist_umbrella" type="action" label="Umbrella → Guardar MDBList"
+               action="RunScript(plugin.program.setapikeys, action=save&amp;target=umbrella&amp;provider=mdblist)" option="close"/>
+      <setting id="save_mdblist_skin_fentastic" type="action" label="Skin FENtastic → Guardar MDBList (Skin.SetString)"
+               action="RunScript(plugin.program.setapikeys, action=save&amp;target=skin_fentastic&amp;provider=mdblist)" option="close"/>
+    </group>
+
+    <group label="SubDL">
+      <setting id="save_subdl_a4ksubs" type="action" label="A4KSubtitles → Guardar SubDL"
+               action="RunScript(plugin.program.setapikeys, action=save&amp;target=a4ksubtitles&amp;provider=subdl)" option="close"/>
+    </group>
+
+    <group label="RPDB">
+      <setting id="save_rpdb_pov" type="action" label="POV → Guardar RPDB"
+               action="RunScript(plugin.program.setapikeys, action=save&amp;target=pov&amp;provider=rpdb)" option="close"/>
+    </group>
+  </category>
+</settings>
