@@ -6,10 +6,10 @@ import xbmcgui
 import xbmcaddon
 
 # ====== TUS CLAVES (puedes editarlas en este archivo por ahora) ======
-OMDB_KEY     = "3b6c28ce"
-MDBLIST_KEY  = "xma2hxonarl718z4w7adchsef"
-SUBDL_KEY    = "lj9neeNGx37abT59gZYQaF_8iDSwNrT_"
-RPDB_KEY     = "t0-free-rpdb"
+OMDB_KEY     = "introduce tu api aqui"
+MDBLIST_KEY  = "introduce tu api aqui"
+SUBDL_KEY    = "introduce tu api aqui"
+RPDB_KEY     = "introduce tu api aqui"
 # =====================================================================
 
 ADDON_ID = "plugin.program.setapikeys"
