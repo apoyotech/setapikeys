@@ -1,0 +1,11 @@
+[B][COLOR ff317f43]Version 0.0.3[/COLOR][/B]
+-Añadido panel de Ajustes con acciones para guardar API por destino.
+[B][COLOR ff317f43]Version 0.0.2[/COLOR][/B]
+-skin FENtastic-MDBlist
+[B][COLOR ff317f43]Version 0.0.1[/COLOR][/B]
+- Versión inicial. Instala las claves API en varios add-ons en KODI automáticamente.
+-Add-on Umbrella-MDBlist
+-Add-on Seren-OMDb
+-Add-on POV-Rating Poster Database
+-Add-on themoviedb.helper-MDBlist
+-Add-on a4kSubtitles-SUBdl
