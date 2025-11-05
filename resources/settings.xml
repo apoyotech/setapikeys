@@ -15,6 +15,11 @@
     </group>
 
     <group label="SubDL">
+    <group label="SubSource">
+      <setting id="save_subsource_a4ksubs" type="action" label="A4KSubtitles → Guardar SubSource"
+               action="RunScript(plugin.program.setapikeys, action=save&amp;target=a4ksubtitles.subsource&amp;provider=subsource)" option="close"/>
+    </group>
+
       <setting id="save_subdl_a4ksubs" type="action" label="A4KSubtitles → Guardar SubDL"
                action="RunScript(plugin.program.setapikeys, action=save&amp;target=a4ksubtitles&amp;provider=subdl)" option="close"/>
     </group>
