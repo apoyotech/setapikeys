@@ -6,12 +6,12 @@ import xbmcgui
 import xbmcaddon
 
 # ====== TUS CLAVES PERSONALES (hardcoded – uso personal) =============
-OMDB_KEY      = "3b6c28ce"
-MDBLIST_KEY   = "xma2hxonarl718z4w7adchsef"
-SUBDL_KEY     = "lj9neeNGx37abT59gZYQaF_8iDSwNrT_"
-SUBSOURCE_KEY = "sk_e231cadbaa9900ae2225bf7cdb8805fa11a74423d5c7cfa4eab58402123ff810"
-RPDB_KEY      = "t0-free-rpdb"
-SUBSRO_KEY    = "fb3f06ba411d25cf04e3fbb0e2cd9884ae0c215cbc2886d236d8495f5f6e85ad"
+OMDB_KEY      = "pon tu api aquí"
+MDBLIST_KEY   = "pon tu api aqui"
+SUBDL_KEY     = "pon tu aoi aqui"
+SUBSOURCE_KEY = "pon tu api aqui"
+RPDB_KEY      = "pon tu api aqui"
+SUBSRO_KEY    = "pon tu api aqui"
 # =====================================================================
 
 ADDON_ID = "plugin.program.setapikeys"
