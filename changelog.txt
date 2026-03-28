@@ -1,3 +1,7 @@
+[B]COLOR ff317f43]Version 0.0.10[/COLOR][/B]
+-Añadido soporte para OMDb en plugin.video.fenlight
+-Añadido soporte para Subs.ro
+-Añadido soporte para plugin.video.luc_kodi: OMDb (omdb.apikey) y MDBList (mdblist.apikey)
 [B][COLOR ff317f43]Version 0.0.6[/COLOR][/B]
 -Añadido soporte SubSource (a4kSubtitles) con clave hardcoded y guardado independiente de SubDL
 -Notificación tras guardar
