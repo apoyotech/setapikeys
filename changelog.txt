@@ -1,3 +1,6 @@
+[B][COLOR ff317f43]Version 0.0.11[/COLOR][/B]
+-Añadido soporte para AIOStreams(custom) en luc_kodi: instancia nhyira y instancia stremio.ru
+-Añadido soporte para MediaFusion(custom) en luc_kodi: instancia midnightignite
 [B]COLOR ff317f43]Version 0.0.10[/COLOR][/B]
 -Añadido soporte para OMDb en plugin.video.fenlight
 -Añadido soporte para Subs.ro(service.subtitles.subsro)
