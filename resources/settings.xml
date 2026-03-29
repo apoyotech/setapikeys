@@ -1,0 +1,100 @@
+<settings>
+
+  <!-- ═══════════════════════════════════════════════════════
+       Mis claves API  –  solo visualización (enmascaradas)
+       Los valores se cargan automáticamente desde default.py
+       ═══════════════════════════════════════════════════════ -->
+  <category label="Mis claves API">
+
+    <group label="OMDb">
+      <setting id="key_omdb" type="text" label="OMDb API Key" option="hidden" default="" />
+    </group>
+
+    <group label="MDBList">
+      <setting id="key_mdblist" type="text" label="MDBList API Key" option="hidden" default="" />
+    </group>
+
+    <group label="SubDL">
+      <setting id="key_subdl" type="text" label="SubDL API Key" option="hidden" default="" />
+    </group>
+
+    <group label="SubSource">
+      <setting id="key_subsource" type="text" label="SubSource API Key" option="hidden" default="" />
+    </group>
+
+    <group label="RPDB">
+      <setting id="key_rpdb" type="text" label="RPDB API Key" option="hidden" default="" />
+    </group>
+
+    <group label="Subs.ro">
+      <setting id="key_subsro" type="text" label="Subs.ro API Key" option="hidden" default="" />
+    </group>
+
+    <group label="AIOStreams">
+      <setting id="key_aio_nhyira_uuid"  type="text" label="UUID (nhyira)"     option="hidden" default="" />
+      <setting id="key_aio_stremio_uuid" type="text" label="UUID (stremio.ru)" option="hidden" default="" />
+      <setting id="key_aio_password"     type="text" label="Password"           option="hidden" default="" />
+    </group>
+
+    <group label="MediaFusion">
+      <setting id="key_mediafusion_secret" type="text" label="Secret (midnightignite)" option="hidden" default="" />
+    </group>
+
+  </category>
+
+  <!-- ═══════════════════════════════════════════════════════
+       Guardar en add-ons
+       ═══════════════════════════════════════════════════════ -->
+  <category label="Guardar API en add-ons">
+
+    <group label="OMDb">
+      <setting id="save_omdb_seren"    type="action" label="Seren → Guardar OMDb"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=seren&amp;provider=omdb)" option="close"/>
+      <setting id="save_omdb_fenlight" type="action" label="Fen Light → Guardar OMDb"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=fenlight&amp;provider=omdb)" option="close"/>
+      <setting id="save_omdb_luckodi"  type="action" label="luc_kodi → Guardar OMDb"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=luc_kodi_omdb&amp;provider=omdb)" option="close"/>
+    </group>
+
+    <group label="MDBList">
+      <setting id="save_mdblist_luckodi"       type="action" label="luc_kodi → Guardar MDBList"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=luc_kodi_mdblist&amp;provider=mdblist)" option="close"/>
+      <setting id="save_mdblist_tmdbh"         type="action" label="TheMovieDB-Helper → Guardar MDBList"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=themoviedb.helper&amp;provider=mdblist)" option="close"/>
+      <setting id="save_mdblist_umbrella"      type="action" label="Umbrella → Guardar MDBList"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=umbrella&amp;provider=mdblist)" option="close"/>
+      <setting id="save_mdblist_fentastic"     type="action" label="Skin FENtastic → Guardar MDBList"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=skin_fentastic&amp;provider=mdblist)" option="close"/>
+      <setting id="save_mdblist_nimbus"        type="action" label="Skin Nimbus → Guardar MDBList"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=skin_nimbus&amp;provider=mdblist)" option="close"/>
+    </group>
+
+    <group label="AIOStreams">
+      <setting id="save_aio_nhyira"  type="action" label="luc_kodi → AIOStreams nhyira"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=luc_kodi_aio_nhyira&amp;provider=luc_provider)" option="close"/>
+      <setting id="save_aio_stremio" type="action" label="luc_kodi → AIOStreams stremio.ru"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=luc_kodi_aio_stremio&amp;provider=luc_provider)" option="close"/>
+    </group>
+
+    <group label="MediaFusion">
+      <setting id="save_mediafusion" type="action" label="luc_kodi → MediaFusion midnightignite"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=luc_kodi_mediafusion&amp;provider=luc_provider)" option="close"/>
+    </group>
+
+    <group label="Subtitles">
+      <setting id="save_subdl_a4k"     type="action" label="A4KSubtitles → Guardar SubDL"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=a4ksubtitles&amp;provider=subdl)" option="close"/>
+      <setting id="save_subsource_a4k" type="action" label="A4KSubtitles → Guardar SubSource"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=a4ksubtitles.subsource&amp;provider=subsource)" option="close"/>
+      <setting id="save_subsro"        type="action" label="Subs.ro → Guardar API key"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=subsro&amp;provider=subsro)" option="close"/>
+    </group>
+
+    <group label="RPDB">
+      <setting id="save_rpdb_pov" type="action" label="POV → Guardar RPDB"
+               action="RunScript(plugin.program.setapikeys,action=save&amp;target=pov&amp;provider=rpdb)" option="close"/>
+    </group>
+
+  </category>
+
+</settings>
