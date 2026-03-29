@@ -6,22 +6,22 @@ import xbmcgui
 import xbmcaddon
 
 # ====== TUS CLAVES PERSONALES (hardcoded – uso personal) =============
-OMDB_KEY      = "3b6c28ce"
-MDBLIST_KEY   = "xma2hxonarl718z4w7adchsef"
-SUBDL_KEY     = "lj9neeNGx37abT59gZYQaF_8iDSwNrT_"
-SUBSOURCE_KEY = "sk_e231cadbaa9900ae2225bf7cdb8805fa11a74423d5c7cfa4eab58402123ff810"
-RPDB_KEY      = "t0-free-rpdb"
-SUBSRO_KEY    = "fb3f06ba411d25cf04e3fbb0e2cd9884ae0c215cbc2886d236d8495f5f6e85ad"
+OMDB_KEY      = "pon tu api aqui"
+MDBLIST_KEY   = "pon tu api aqui"
+SUBDL_KEY     = "pon tu api aqui"
+SUBSOURCE_KEY = "pon tu api aqui"
+RPDB_KEY      = "pon tu api aqui"
+SUBSRO_KEY    = "pon tu api aqui"
 
 # AIOStreams – instancia nhyira (index '3')
-AIOSTREAMS_NHYIRA_UUID      = "90287725-fe3c-4b26-8535-458ed163df14"
+AIOSTREAMS_NHYIRA_UUID      = "pon tu nhyira UUID aqui"
 # AIOStreams – instancia stremio.ru (index '1')
-AIOSTREAMS_STREMIO_UUID     = "9f2a84fd-02c1-481b-b154-4e58c7d6e78f"
+AIOSTREAMS_STREMIO_UUID     = "pon tu stremio.ru UUID aqui"
 # AIOStreams – password compartida entre instancias
-AIOSTREAMS_PASSWORD         = "Aditza02@"
+AIOSTREAMS_PASSWORD         = "pon tu instance password aqui"
 
 # MediaFusion – instancia midnightignite (index '0')
-MEDIAFUSION_MIDNIGHT_SECRET = "U-b44be54a-6b27-432c-8424-d353a8e87da2"
+MEDIAFUSION_MIDNIGHT_SECRET = "pon tu midnightignite secret aqui"
 # =====================================================================
 
 ADDON_ID = "plugin.program.setapikeys"
