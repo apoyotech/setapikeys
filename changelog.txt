@@ -1,9 +1,16 @@
+[B][COLOR ff317f43][Version 0.0.12[/COLOR][/B]
+-Añadido el soporte para Wyzie API key en el plugin.video.pov
+-Añadido el soporte para Wyzie API key en services.subtitles.substudio
+-Añadido el soporte para Wyzie API key en services.subtitles.wyzie
+-Añadido el soporte para Gemini API key en services.subtitles.substudio
+-Añadido el soporte para Gemini API key en services.subtitles.wyzie
+-Añadido el soporte para Opensubtiles.com en plugin.video.luc_kodi
+-Añadido el soporte para Opensubtiles.com en plugin.video.umbrella
 [B][COLOR ff317f43]Version 0.0.11[/COLOR][/B]
--Añadido soporte para AIOStreams(custom) en luc_kodi: instancia nhyira y instancia stremio.ru
--Añadido soporte para MediaFusion(custom) en luc_kodi: instancia midnightignite
+-Añadido soporte para AIOStreams(custom) en plugin.video.luc_kodi: instancia nhyira y instancia stremio.ru
+-Añadido soporte para MediaFusion(custom) en plugin.video.luc_kodi: instancia midnightignite
 [B][COLOR ff317f43]Version 0.0.10[/COLOR][/B]
 -Añadido soporte para OMDb en plugin.video.fenlight
--Añadido soporte para Subs.ro(service.subtitles.subsro)
 -Añadido soporte para plugin.video.luc_kodi: OMDb (omdb.apikey) y MDBList (mdblist.apikey)
 [B][COLOR ff317f43]Version 0.0.6[/COLOR][/B]
 -Añadido soporte SubSource (a4kSubtitles) con clave hardcoded y guardado independiente de SubDL
