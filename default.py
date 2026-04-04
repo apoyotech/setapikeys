@@ -6,31 +6,31 @@ import xbmcgui
 import xbmcaddon
 
 # ====== TUS CLAVES PERSONALES (hardcoded – uso personal) =============
-OMDB_KEY      = "3b6c28ce"
-MDBLIST_KEY   = "xma2hxonarl718z4w7adchsef"
-SUBDL_KEY     = "lj9neeNGx37abT59gZYQaF_8iDSwNrT_"
-SUBSOURCE_KEY = "sk_e231cadbaa9900ae2225bf7cdb8805fa11a74423d5c7cfa4eab58402123ff810"
-RPDB_KEY      = "t0-free-rpdb"
-WYZIE_KEY     = "wyzie-5592acb09023a388f42e52549659f30f"
+OMDB_KEY      = "pon aqui tu OMDb API"
+MDBLIST_KEY   = "pon aqui tu MDblist API"
+SUBDL_KEY     = "pon tu aquí tu SubDL API"
+SUBSOURCE_KEY = "pon aqui tu SubSource API"
+RPDB_KEY      = "pon aqui tu RPDB API"
+WYZIE_KEY     = "pon aqui tu Wyzie API"
 
 # OpenSubtitles.com
-OPENSUBS_USER = "luc_"
-OPENSUBS_PASS = "Aditza02"
+OPENSUBS_USER = " pon aqui tu usuario de opensubtiles"
+OPENSUBS_PASS = "pon aqui tu contraseña de opensubtiles"
 
 # Gemini (Google AI Studio) — 3 claves rotatorias
-GEMINI_KEY_1  = "AIzaSyCs4fYTCCD3k8lW0PdH0DPv_orOD8X-5z4"
-GEMINI_KEY_2  = "AIzaSyAu0WZWFXEKuQg-gFr_iXfC78duWWCwpSU"
-GEMINI_KEY_3  = "AIzaSyC6vdhlz9jpN9U272E47rAtXWnEJSX34Dw"
+GEMINI_KEY_1  = "pon aqui tu Gemini API"
+GEMINI_KEY_2  = "pon aqui tu Gemini API"
+GEMINI_KEY_3  = "pon aqui tu Gemini API"
 
 # AIOStreams – instancia nhyira (index '3')
-AIOSTREAMS_NHYIRA_UUID      = "90287725-fe3c-4b26-8535-458ed163df14"
+AIOSTREAMS_NHYIRA_UUID      = "pon aqui tu nhyira UUID"
 # AIOStreams – instancia stremio.ru (index '1')
-AIOSTREAMS_STREMIO_UUID     = "9f2a84fd-02c1-481b-b154-4e58c7d6e78f"
+AIOSTREAMS_STREMIO_UUID     = "pon aqui tu stremio.ru UUID"
 # AIOStreams – password compartida entre instancias
-AIOSTREAMS_PASSWORD         = "Aditza02@"
+AIOSTREAMS_PASSWORD         = "pon aqui tu contraseña"
 
 # MediaFusion – instancia midnightignite (index '0')
-MEDIAFUSION_MIDNIGHT_SECRET = "U-b44be54a-6b27-432c-8424-d353a8e87da2"
+MEDIAFUSION_MIDNIGHT_SECRET = "pon aqui tu SECRET"
 # =====================================================================
 
 ADDON_ID = "plugin.program.setapikeys"
