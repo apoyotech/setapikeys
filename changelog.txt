@@ -1,0 +1,34 @@
+[B][COLOR ff317f43]Version 0.0.21[/COLOR][/B]
+-Añadido soporte Sootio scraper en luc_kodi (sootio.url + sootio.config + provider.sootio=true)
+-Acepta URL completa con /manifest.json — el scraper la normaliza internamente
+-Campo hidden key_sootio en ajustes para visualización enmascarada
+
+[B][COLOR ff317f43]Version 0.0.20[/COLOR][/B]
+-Añadido soporte Orion scraper en luc_kodi (orion.api_key + provider.orion=true)
+-AIOStreams nhyira reemplazado por midnightignite (índice 0 en luc_kodi v0.0.86+)
+-Categoría Providers renombrada a "Providers (luc_kodi custom scrapers)"
+-Campo hidden key_orion en ajustes para visualización enmascarada
+
+[B][COLOR ff317f43]Version 0.0.19[/COLOR][/B]
+-Soporte Wyzie API key en service.subtitles.substudio
+
+[B][COLOR ff317f43]Version 0.0.18[/COLOR][/B]
+-Soporte Wyzie API key en service.subtitles.wyzie
+
+[B][COLOR ff317f43]Version 0.0.17[/COLOR][/B]
+-Soporte Gemini AI en Wyzie Service y SubStudio (3 keys a la vez)
+
+[B][COLOR ff317f43]Version 0.0.16[/COLOR][/B]
+-Soporte Wyzie API key en POV, Wyzie Service y SubStudio
+
+[B][COLOR ff317f43]Version 0.0.15[/COLOR][/B]
+-Fix _is_active() luc_provider: salta campos enum de índice corto
+
+[B][COLOR ff317f43]Version 0.0.14[/COLOR][/B]
+-Fix _is_active() luc_provider: compara valor almacenado contra esperado
+
+[B][COLOR ff317f43]Version 0.0.13[/COLOR][/B]
+-Nuevo menú en dos niveles con categorías y contador activos/instalados
+
+[B][COLOR ff317f43]Version 0.0.1[/COLOR][/B]
+-Versión inicial
