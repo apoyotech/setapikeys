@@ -1,6 +1,7 @@
 [B][COLOR ff317f43]Version 0.0.24[/COLOR][/B]
 -Añadido soporte Gemini AI en luc_kodi (gemini.api.key + gemini.api.key2 + gemini.api.key3)
 -Nuevo handler luc_gemini: escribe las 3 claves + clearProperty('luc_kodi_settings') para invalidar la caché Window
+
 [B][COLOR ff317f43]Version 0.0.21[/COLOR][/B]
 -Añadido soporte Sootio scraper en luc_kodi (sootio.url + sootio.config + provider.sootio=true)
 -Acepta URL completa con /manifest.json — el scraper la normaliza internamente
